@@ -9,11 +9,11 @@ void main(){
     // ประกาศตัวแปร num1 num2 และ total
     printf("Value of num1 is:");
     scanf("%d",&num1);
-    printf("Value of num1 is:");
+    printf("Value of num2 is:");
     scanf("%d",&num2);
     total = num1 + num2;
-    printf("Result is %d",total);
-    printf("Kritidaj Jangmongkulkarn");
+    printf("Result is %d\n",total);
+    printf("Kritidaj Jangmongkulkarn\n");
 
 
 
