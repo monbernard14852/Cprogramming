@@ -13,7 +13,7 @@ void main(){
     scanf("%d",&num2);
     total = num1 + num2;
     printf("Result is %d",total);
-    printf(Kritidaj Jangmongkulkarn);
+    printf("Kritidaj Jangmongkulkarn");
 
 
 
