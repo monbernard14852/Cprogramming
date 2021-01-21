@@ -7,8 +7,8 @@ void main(){
      // ============== ตัวแปล ===================== 
      // ทำระบบสมัครสมาชิก เก็บ username, email, password, phone
      //                        char[] char[] char[]      int
-     //การบ้าน เพิ่ม 1.ชื่อ 2.นามสกุล 3.อายุ 4.น้ำหนัก 5.ส่วนสูง
-    char username[20], email[50], password[20], repassword[20], fristname[20], surname[20], phone[20]; 
+     //การบ้าน เพิ่ม 1.ชื่อ 2.นามสกุล 3.อายุ 4.น้ำหนัก 5.ส่วนสูง 6.รหัสนักศึกษา
+    char username[20], email[50], password[20], repassword[20], fristname[20], surname[20], phone[20], idstudent[20]; 
     int age;
     float height;
      // ============== ตัวแปล =====================
@@ -32,6 +32,9 @@ void main(){
     printf("your surname is:");
     scanf("%s",&surname);
 
+    printf("your idstudent is:");
+    scanf("%d",&idstudent);
+    
     printf("your age is:");
     scanf("%d",&age);
 
@@ -53,6 +56,7 @@ void main(){
      printf("your repassword is: %s\n",repassword);
      printf("your fristname is: %s\n",fristname);
      printf("your surname is: %s\n",surname);
+     printf("your idstudent is: %s\n",idstudent);
      printf("your age is: %d\n",age);
      printf("your height is: %.2f\n",height);
      printf("your phone is: %s\n",phone);
