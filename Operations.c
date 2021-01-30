@@ -17,31 +17,32 @@ void main(){
 
     // ========== Input ==========
     // ========== Process การดำเนินการทางคณิตศาสตร์ ==========
-        //result = num1 + num2;
-    // total[0] = 2 < 1;
+    printf("true = 1 false = 0\n");
+    total[0] = 60 > 2;
+    total[1] = 562 <= 201;
+    total[2] = 652 == 543;
+    total[3] = 22 != 22;
+    total[4] = 1024 && 0;
+    total[5] = 1 && 1;
+    total[6] = (2 != 1) || 1;
+    total[7] = (2 == 1) || 1;
+    total[8] = (10 <=1 ) && (12 > 15);
+    total[9] = !((10 <=1 ) || (15 == 15));
         //shift + alt + arrow down
-    // total[1] = 200 <= 201;
-    // total[2] = 2 == 2;
-    // total[3] = 2 != 2;
-            // true = 1 false = 0
-    total[4] = !((3 < 5) && (6 >= 7));
-    //เป็นจริงกรณีฬดก็จะเป็นจริง
-    total[5] = !((5 <= 20) || (6 > 9));
-    sum = 5;
-    sum += 10;// sum = sum +10 ;
-
-
-
     // ========== Process การดำเนินการทางคณิตศาสตร์ ==========
         // ctrl + d = การเลือกตัวที่เหมือนกัน
         // ctrl + f2 = การเลือกตัวที่เราคลุมทั้งหมด
-    // ========== Output ==========
-    // printf("Total 1 : %d\n",total[0]);
-    // printf("Total 2 : %d\n",total[1]);
-    // printf("Total 3 : %d\n",total[2]);
-    // printf("Total 4 : %d\n",total[3]);
+    //========== Output ==========
+    printf("Total 1 : %d\n",total[0]);
+    printf("Total 2 : %d\n",total[1]);
+    printf("Total 3 : %d\n",total[2]);
+    printf("Total 4 : %d\n",total[3]);
     printf("Total 5 : %d\n",total[4]);
     printf("Total 6 : %d\n",total[5]);
+    printf("Total 7 : %d\n",total[6]);
+    printf("Total 8 : %d\n",total[7]);
+    printf("Total 9 : %d\n",total[8]);
+    printf("Total 10 : %d\n",total[9]);
 
 
     // ========== Output ==========
