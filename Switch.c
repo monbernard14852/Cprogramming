@@ -4,6 +4,7 @@
 void main(){
     //========== Variable ==========
         char choice;
+        float disk1;
     //========== Variable ==========
     //========== Input ==========
     printf("Please input your drink :");
@@ -12,7 +13,7 @@ void main(){
     //========== Process ==========
         switch (choice){
         case 'c':
-            printf("Coke !!");
+            printf("coke !!");
         break;
         case 'p':
             printf("Pepsi !!");
